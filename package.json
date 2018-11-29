@@ -1,0 +1,21 @@
+{
+	"name": "complete-rollup",
+	"version": "1.0.0",
+	"description": "Complete bundler with rollup+babel+terser",
+	"engines": {
+		"node": "10.x",
+		"npm": "6.x"
+	},
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"rollup": "*",
+		"@babel/core": "*",
+		"@babel/preset-env": "*",
+		"rollup-plugin-babel": "*",
+		"terser": "*",
+		"rollup-plugin-terser": "*"
+	}
+}
