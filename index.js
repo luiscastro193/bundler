@@ -3,7 +3,10 @@ const { rollup } = require("rollup");
 const babel = require('rollup-plugin-babel');
 const { terser } = require("rollup-plugin-terser");
 
-const filePath = "entry.js";
+if (process.argv.length < 3)
+	throw("Pass the entry file as an argument");
+
+const filePath = process.argv[2];
 
 rollup({
 	input: filePath,
