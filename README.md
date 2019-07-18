@@ -1,4 +1,4 @@
 # bundler
-Complete bundler with rollup+babel+terser
+Complete bundler with rollup+terser
 
 Alternative: https://en.parceljs.org/

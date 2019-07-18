@@ -9,9 +9,6 @@
 	"main": "index.js",
 	"dependencies": {
 		"rollup": "*",
-		"@babel/core": "*",
-		"@babel/preset-env": "*",
-		"rollup-plugin-babel": "*",
 		"terser": "*",
 		"rollup-plugin-terser": "*"
 	}
