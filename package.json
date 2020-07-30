@@ -1,9 +1,9 @@
 {
 	"name": "complete-rollup",
 	"version": "1.0.0",
-	"description": "Complete bundler with rollup+babel+terser",
+	"description": "Complete bundler with rollup+terser",
 	"engines": {
-		"node": "10.x",
+		"node": "14.x",
 		"npm": "6.x"
 	},
 	"main": "index.js",
