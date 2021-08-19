@@ -9,9 +9,7 @@ const filePath = process.argv[2];
 
 rollup({
 	input: filePath,
-	plugins: [
-		terser()
-	]
+	plugins: [terser()]
 }).then(build => {
 	build.write({
 		file: "build.js",
