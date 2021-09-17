@@ -1,4 +1,4 @@
 # bundler
 Complete bundler with rollup+terser
 
-Alternative: https://en.parceljs.org/
+Alternative: https://github.com/parcel-bundler/parcel
