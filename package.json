@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"description": "Complete bundler with rollup+terser",
 	"engines": {
-		"node": "16.x",
-		"npm": "7.x"
+		"node": "17.x",
+		"npm": "8.x"
 	},
 	"main": "index.js",
 	"dependencies": {
