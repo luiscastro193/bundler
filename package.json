@@ -1,11 +1,12 @@
 {
 	"name": "complete-rollup",
 	"version": "1.0.0",
+	"type": "module",
 	"description": "Complete bundler with rollup+terser",
 	"main": "index.js",
 	"dependencies": {
 		"rollup": "*",
-		"rollup-plugin-terser": "*",
+		"@rollup/plugin-terser": "*",
 		"terser": "*"
 	}
 }

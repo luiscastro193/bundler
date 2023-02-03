@@ -1,6 +1,6 @@
 "use strict";
-const { rollup } = require("rollup");
-const { terser } = require("rollup-plugin-terser");
+import { rollup } from 'rollup';
+import terser from '@rollup/plugin-terser';
 
 if (process.argv.length < 3)
 	throw "Pass the entry file as an argument";
