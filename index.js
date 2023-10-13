@@ -7,4 +7,4 @@ if (process.argv.length < 3)
 
 const filePath = process.argv[2];
 let build = await rollup({input: filePath, plugins: [terser()]});
-await build.write({file: "build.js", format: 'iife'});
+await build.write({file: "build.js"});
