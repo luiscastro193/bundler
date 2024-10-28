@@ -1,10 +1,10 @@
 "use strict";
+import {writeFile} from 'fs/promises';
 import {rollup} from 'rollup';
-import terser from '@rollup/plugin-terser';
+import {minify} from '@swc/core';
 
 if (process.argv.length < 3)
 	throw "Pass the entry file as an argument";
 
-const filePath = process.argv[2];
-let build = await rollup({input: filePath, plugins: [terser()]});
-await build.write({file: "build.js"});
+let code = (await (await rollup({input: process.argv[2]})).generate({})).output[0].code;
+writeFile("build.js", (await minify(code, {module: true})).code);

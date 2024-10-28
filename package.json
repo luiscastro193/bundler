@@ -1,12 +1,11 @@
 {
 	"name": "complete-rollup",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"type": "module",
-	"description": "Complete bundler with rollup+terser",
+	"description": "Complete bundler with rollup+swc",
 	"main": "index.js",
 	"dependencies": {
 		"rollup": "*",
-		"@rollup/plugin-terser": "*",
-		"terser": "*"
+		"@swc/core": "*"
 	}
 }
