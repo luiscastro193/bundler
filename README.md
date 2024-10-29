@@ -1,2 +1,2 @@
 # bundler
-Complete bundler with rollup+swc
+Complete bundler with rollup+swc+lightningcss
