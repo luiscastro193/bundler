@@ -1,5 +1,5 @@
 {
-	"name": "complete-rollup",
+	"name": "bundler",
 	"version": "4.0.0",
 	"type": "module",
 	"description": "Complete bundler with rollup+swc+lightningcss",
