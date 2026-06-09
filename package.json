@@ -8,8 +8,5 @@
 		"rollup": "*",
 		"@swc/core": "*",
 		"lightningcss": "*"
-	},
-	"pnpm": {
-		"neverBuiltDependencies": []
 	}
 }
